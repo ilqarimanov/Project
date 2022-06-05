@@ -1,0 +1,119 @@
+.blog{
+    background-color: white;
+    .row{
+        width: 100%;
+    }
+    .miniblog{
+        border-radius: 15px;
+        height: 520px;
+        padding: 40px 20px 20px 40px;
+        background-color: rgba(0,0,0,.07);
+        img{
+            border-radius: 15px;
+            height: 200px;
+        }
+        .text{
+            width: 100%;
+            .p1{
+                color: #262626;
+                letter-spacing: 1px;
+                
+            }
+            h4{
+                text-align: center;
+            }
+            .time{
+                color: #e81922;
+                font-weight: bold;
+                line-height: 3px;
+            }
+            .p2{
+                text-align: center;
+            }
+            .icons{
+                .icon{
+                    cursor: pointer;
+                    &:hover{
+                        color: #e81922;
+                    }
+                }
+            }
+            .end{
+                margin-top: 15px;
+                text-decoration: none;
+                .link{
+                    margin-top: 3px;
+                    width: 150px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-decoration: none !important;
+                    border: none;
+                    background-color: #e81922;
+                    border-radius: 20px;
+                    transition: 0.5s;
+                    color: white;
+                    font-weight: bold;
+                    &:hover{
+                        background-color: #94252b;
+                        color: black;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+.blogdetailspage{
+    background-color: white ;
+    header{
+        width: 100%;
+        height: 200px;
+        background-image: url("../img/img19.jpg");
+        h1{
+            font-weight: bold;
+            font-family: 'Luckiest Guy', cursive;
+        }
+        .text{
+            width: 100%;
+            text-align: center;
+        }
+        .navlink{
+            color: #e81922;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+    .details{
+        background-color: white;
+        .row{
+            width: 100%;
+            border: 1px solid #ffc222;
+            padding: 10px;
+            .p1{
+                color: #ffc222;
+                font-family: 'Luckiest Guy', cursive;
+                font-size: 22px;
+                text-transform: capitalize;
+            }
+            h1{
+                font-weight: bold;
+            }
+            .p2{
+                color: grey;
+                font-weight: 500;
+            }
+        img{
+            width: 80%;
+            border-radius: 20px;
+        }
+        .bg{
+            background-image: url('../img/bg7.png');
+            background-size: cover;
+            background-position: top;
+        }
+
+        }
+    }
+}

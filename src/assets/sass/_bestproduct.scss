@@ -1,0 +1,66 @@
+.bestproduct {
+    img {
+        width: 320px;
+    }
+
+    .burger {
+        img {
+            width: 50%;
+
+        }
+    }
+
+    .cooking {
+        h3 {
+            text-align: center;
+            color: #e81922;
+            font-family: 'Luckiest Guy', cursive;
+            font-weight: 600;
+        }
+
+        .row {
+            .col1 {
+                height: 300px;
+                background-image: url('../img/img16.jpg');
+                background-repeat: no-repeat;
+                background-size: 90%;
+                background-position: center;
+                transition: 0.8s;
+
+                &:hover {
+                    background-size: 110%;
+                    background-position: center;
+                }
+            }
+
+            .col2 {
+                height: 300px;
+                background-image: url('../img/img17.jpg');
+                background-repeat: no-repeat;
+                background-size: 90%;
+                background-position: center;
+                transition: 0.8s;
+
+                &:hover {
+                    background-size: 110%;
+                    background-position: center;
+                }
+            }
+
+            .col3 {
+                height: 300px;
+                background-image: url('../img/img18.jpg');
+                background-repeat: no-repeat;
+                background-size: 90%;
+                background-position: center;
+                transition: 0.8s;
+
+                &:hover {
+                    background-size: 110%;
+                    background-position: center;
+                }
+            }
+        }
+    }
+
+}

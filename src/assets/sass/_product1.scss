@@ -1,0 +1,62 @@
+.product1item{
+    .link1{
+        text-decoration: none;
+        color: #e81922;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .link2{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+        color: black;
+    }
+    h1{
+        font-family: 'Luckiest Guy', cursive;
+        font-weight: bold;
+    }
+    .price{
+        color: black;
+        font-weight: 600;
+        span{
+            color: #e81922;
+        }
+    }
+    .button1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        width: 40%;
+        height: 50px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-family: 'Luckiest Guy', cursive;
+        background-color: black;
+        border-radius: 30px;
+        margin-right: 10px;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: #e81922;
+            color: black;
+        }
+    }
+    .button2 {
+        width: 40%;
+        height: 50px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-family: 'Luckiest Guy', cursive;
+        border: none;
+        background-color: #e81922;
+        border-radius: 30px;
+        margin-right: 10px;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+}

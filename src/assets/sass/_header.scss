@@ -1,0 +1,120 @@
+ body {
+     background-color: rgb(238, 238, 238);
+ }
+
+ header {
+     padding: 50px 0px 0px 0px;
+
+     .carousel-indicators {
+         button {
+             width: 20px !important;
+             height: 20px !important;
+             border-radius: 100%;
+             background-color: #e81922 !important;
+         }
+     }
+
+     .item {
+         height: 500px;
+         background-image: url('../img/bg1.jpg');
+
+         .bg {
+             width: 100%;
+             height: 100%;
+             background-image: url('../img/bg2.png');
+             background-size: cover;
+
+             .product {
+                 width: 100%;
+                 height: 100%;
+
+                 .productbg {
+                     width: 100% !important;
+                     height: 250px;
+                     background-image: url('../img/img1.png');
+                     background-repeat: no-repeat;
+                     background-size: cover;
+
+                     h1 {
+                         font-family: 'Reenie Beanie', cursive;
+                         letter-spacing: 2px;
+                         color: white;
+                         text-align: center;
+
+                     }
+
+                     img {
+                         width: 400px;
+                     }
+
+                 }
+             }
+         }
+     }
+
+     .item2 {
+
+         width: 100%;
+         height: 500px;
+         background-size: cover;
+         color: white;
+
+         .container {
+             background-image: url('../img/slider2.png');
+             background-size: 100%;
+             background-repeat: no-repeat;
+             background-position: center;
+             height: 100%;
+
+             h1 {
+                 color: white;
+                 font-size: 60px;
+                 font-weight: bold;
+             }
+         }
+     }
+
+     .item3 {
+         .container {
+             height: 100%;
+
+             .text {
+                 width: 50%;
+
+                 h1 {
+                     font-family: 'Reenie Beanie', cursive;
+                     color: white;
+                     text-align: center;
+                     line-height: 82px;
+                 }
+
+                 .menu {
+                     text-decoration: none;
+                     color: rgb(255, 255, 255);
+                     font-weight: bold;
+                     border: none;
+                     background-color: #e81922;
+                     border-radius: 30px;
+                     margin-right: 10px;
+                     transition: 0.5s;
+
+                     &:hover {
+                         background-color: #a01c22;
+                         color: black;
+                     }
+                 }
+             }
+
+             img {
+                 width: 600px;
+             }
+         }
+
+     }
+
+     .carousel-inner .carousel-item {
+         transition: -webkit-transform 1.5s ease;
+         transition: transform 1.5s ease;
+         transition: transform 1.5s ease, -webkit-transform 1.5s ease;
+     }
+ }

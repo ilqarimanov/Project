@@ -1,0 +1,50 @@
+.section3 {
+    border-top: 2px solid #eacf4f;
+    border-bottom: 2px solid #eacf4f;
+    background-color: rgb(245, 231, 231);
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/bg3.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    .bg1 {
+        padding-top: 100px;
+
+        .bg {
+            width: 250px;
+            height: 250px;
+            background-image: url('../img/img5.jpg');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            border-radius: 100%;
+        }
+    }
+
+    h5 {
+        font-family: 'Luckiest Guy', cursive;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .menu {
+        text-decoration: none;
+        border: none;
+        border-radius: 20px;
+        background-color: #e81922 !important;
+        color: white;
+        font-weight: bold;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: #970109 !important;
+        }
+    }
+
+}

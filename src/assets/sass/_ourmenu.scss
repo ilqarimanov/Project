@@ -1,0 +1,101 @@
+.ourmenu {
+    width: 100%;
+
+    .button {
+        width: 30%;
+        height: 50px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-family: 'Luckiest Guy', cursive;
+        border: none;
+        background-color: #e81922;
+        border-radius: 30px;
+        margin-right: 10px;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: #a01c22;
+            color: black;
+        }
+
+
+    }
+
+    .icon {
+        color: #eacf4f;
+        font-size: 40px;
+    }
+
+    .slick-arrow {
+        background-color: #e81922 !important;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+
+    .item {
+        background-image: url(../img/bg1.jpg);
+        width: 90% !important;
+        height: 300px;
+        border: 1px solid #eacf4f;
+        border-radius: 10px;
+
+        img {
+            width: 50%;
+            margin-left: 20px;
+        }
+
+        .text {
+            text-align: center;
+
+            .title {
+                color: white;
+                font-weight: bold;
+                font-family: 'Luckiest Guy', cursive;
+                font-size: 17px;
+            }
+
+            .star {
+                color: #eacf4f;
+            }
+
+            .price {
+                color: white;
+                font-weight: bold;
+            }
+
+.button1 {
+                    width: 170px;
+                    height: 35px;
+                    border-radius: 20px;
+                    color: #ffffff;
+                    font-weight: bold;
+                    font-size: 13px;
+                    background-color: #e81922;
+                    transition: 0.5s;
+
+                    &:hover {
+                        background-color: #b30f18;
+                    }
+                }
+            }
+            .button3{
+                width: 170px;
+                height: 35px;
+                border-radius: 20px;
+                background-color: rgb(216, 216, 216);
+                transition: 0.5s;
+                &:hover {
+                    background-color: rgba(207, 205, 205, 0.7);
+                }
+                .button2{
+                    border-radius: 20px;
+                    font-weight: bold;
+                    font-size: 13px;
+                    text-decoration: none;
+                    color: black;
+                }
+            
+        }
+    }
+}

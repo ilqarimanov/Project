@@ -1,0 +1,248 @@
+.mode {
+    position: absolute;
+    position: fixed;
+    right: 20px;
+    top: 30%;
+    z-index: 100;
+    background-color: black;
+    border: 1px solid #e81922;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+        font-size: 30px
+    }
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 30px;
+        height: 60px;
+
+        input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+    }
+
+    .slide1 {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+
+        &:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 2px;
+            top: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+    }
+
+    input:checked+.slide1 {
+        background-color: #c09595;
+    }
+
+    input:focus+.slide1 {
+        box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked+.slide1:before {
+        -webkit-transform: translateY(26px);
+        -ms-transform: translateY(26px);
+        transform: translateY(26px);
+    }
+
+    /* Rounded sliders */
+    .slide1.round {
+        border-radius: 34px;
+    }
+
+    .slide1.round:before {
+        border-radius: 50%;
+    }
+
+    .switch-checkbox {
+        padding: 6px
+    }
+}
+
+
+
+.dark-mode {
+    color: white;
+    background-color: #141414;
+
+    .navbar {
+        color: white;
+        background-color: #1a1a1a;
+
+        li {
+            color: white;
+        }
+
+        .link1 {
+            color: white;
+        }
+    }
+
+    .section3 {
+        background-color: #141414;
+
+        h5 {
+            color: white;
+        }
+    }
+
+    .section5 {
+        .item {
+            background-color: #141414;
+        }
+    }
+
+    .section6 {
+        .text {
+            background-color: #141414;
+        }
+
+        .img2 {
+            border: 15px solid #141414;
+        }
+    }
+
+    .section7 {
+        .all1 {
+            color: white;
+
+            .all {
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+
+    footer {
+        border-top: 1px solid #e81922;
+    }
+
+    .about {
+        background-color: #141414;
+
+        header {
+            background-image: none;
+        }
+
+        .aboutsection1 {
+            background-color: #141414;
+        }
+
+        .aboutsection2 {
+            background-image: none;
+            height: 50px;
+        }
+
+        .aboutsection3 {
+            background-color: #141414;
+        }
+
+        .aboutsection5 {
+            .chef {
+                background-color: #141414;
+                border: 1px solid #3a3939;
+            }
+        }
+    }
+
+    .bestproduct {
+        .all1 {
+            color: white;
+
+            .all {
+                border-top: 1px solid white;
+                border-bottom: 1px solid white;
+            }
+        }
+    }
+
+    .deliverytime {
+        .bg {
+            background-color: #141414;
+            background-image: url('../img/bg6.png');
+            background-repeat: no-repeat;
+            background-position: 50%;
+        }
+    }
+
+    .blog {
+        background-color: #141414;
+
+        .miniblog {
+            background-color: rgba(248, 248, 248, 0.07);
+
+            .p1 {
+                color: white;
+            }
+        }
+    }
+
+    .blogdetailspage {
+        background-color: #141414;
+
+        header {
+            background-image: none;
+            background-color: #141414;
+        }
+
+        .details {
+            background-color: #141414;
+        }
+    }
+
+    .card {
+        background-color: #141414;
+
+        .carditem {
+            background-color: rgba(248, 248, 248, 0.07);
+        }
+
+        .btn2 {
+            color: white;
+        }
+    }
+
+    .navbar {
+        .mobile-menu-icon {
+            background-color: #1a1a1a;
+        }
+
+        .nav-links-mobile {
+            background-color: #313131;
+        }
+    }
+    .product1item{
+        .link2{
+            color: rgb(196, 193, 193);
+        }
+        .price{
+            color: rgb(192, 190, 190);
+        }
+        .button1 {
+            color: #e81922;
+            background-color: white;
+
+        }
+    }
+}

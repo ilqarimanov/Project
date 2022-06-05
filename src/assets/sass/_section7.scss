@@ -1,0 +1,70 @@
+.section7,
+.best {
+    width: 100%;
+
+    .best {
+        text-align: center;
+        color: #e81922;
+        font-weight: bold;
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 35px;
+    }
+
+    img {
+        width: 350px;
+    }
+
+    .text {
+        text-align: center;
+
+        .title {
+            font-weight: bold;
+            font-family: 'Luckiest Guy', cursive;
+            font-size: 20px;
+        }
+
+        .star {
+            color: #eacf4f;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #e81922;
+        }
+
+        button {
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            background-color: #e81922;
+            border-radius: 30px;
+            margin-right: 10px;
+            transition: 0.5s;
+
+            &:hover {
+                background-color: #a01c22;
+                color: black;
+            }
+        }
+    }
+
+    .all1 {
+        text-decoration: none !important;
+        color: black;
+        font-weight: bold;
+    }
+
+    .all {
+        width: 150px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        font-weight: bold;
+        transition: 0.5s;
+        cursor: pointer;
+
+        &:hover {
+            border-top: 1px solid #e81922;
+            border-bottom: 1px solid #e81922;
+            color: #e81922;
+        }
+    }
+}

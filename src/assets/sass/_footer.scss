@@ -1,0 +1,112 @@
+footer {
+    margin-top: 0px;
+    padding-top: 0%;
+    width: 100%;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    text-align: center;
+
+    .row {
+        width: 100%;
+
+        .col1 {
+            position: relative;
+
+            .box {
+                background-color: #e81922;
+                width: 200px;
+                height: 100%;
+            }
+
+            img {
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                right: 10%;
+                top: 7%;
+            }
+        }
+
+        .text1 {
+            h3 {
+                font-weight: bold;
+            }
+
+            p {
+                line-height: 10px;
+            }
+        }
+
+        .text2 {
+            input {
+                background-color: transparent;
+                border: none;
+                width: 250px;
+                border-bottom: 1px solid white;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            button {
+                border: none;
+                background-color: #e81922;
+                color: white;
+                font-weight: bold;
+                width: 105px;
+                height: 35px;
+            }
+        }
+
+        .text3 {
+            width: 80%;
+            margin-top: 100px;
+
+            h5 {
+                font-size: 1.5rem;
+                line-height: 1.1;
+                letter-spacing: 4px;
+                font-weight: 700;
+                margin-bottom: 45px;
+            }
+
+            p {
+                line-height: 5px;
+            }
+
+            .icons {
+                width: 100%;
+                color: black;
+                font-size: 15px;
+
+                .icon {
+                    width: 30px;
+                    height: 30px;
+                    background-color: white;
+                    border-radius: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: 0.5s;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #e81922;
+                    }
+                }
+            }
+        }
+    }
+    .up{
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        height: 40px;
+        width: 40px;
+        border: none;
+        background-color: rgb(255, 0, 0);
+        border-radius: 3px;
+
+    }
+}
